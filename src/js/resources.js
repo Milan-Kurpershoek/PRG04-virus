@@ -1,17 +1,18 @@
-import { ImageSource, Sound, Resource, Loader } from 'excalibur'
+import { ImageSource, Sound, Resource, Loader } from 'excalibur';
 
 // voeg hier jouw eigen resources toe
 const Resources = {
-    BadVirus : new ImageSource('images/virus-bad.png'),
-    GoodVirus : new ImageSource('images/virus-good.png'),
-}
+    BadVirus: new ImageSource('images/virus-bad.png'),
+    GoodVirus: new ImageSource('images/virus-good.png'),
+    MedicalVirus: new ImageSource('images/virus-medical.png')
+};
 
 
 
 
-const ResourceLoader = new Loader()
+const ResourceLoader = new Loader();
 for (let res of Object.values(Resources)) {
-    ResourceLoader.addResource(res)
+    ResourceLoader.addResource(res);
 }
 
-export { Resources, ResourceLoader }
+export { Resources, ResourceLoader };

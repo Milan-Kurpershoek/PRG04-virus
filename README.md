@@ -10,9 +10,10 @@ Wanneer je klikt wordt het virus verwijderd.
 
 **Versie 2**
 
-Genereer 29 'goede' virussen en 1 'slecht' virus.
-Wanneer een slecht virus een goed virus aanraakt, dan zal het goede virus in een slecht virus veranderen. 
-Porbeer zo snel mogelijk de slechte virussen te verwijderen door deze aan te klikken. 
+Genereer 30 slechte virussen en één medical virus in het scherm.
+de medical virus kan slechte virussen genezen door deze aan te raken. Als een virus goed is, kan deze niet meer 
+aangeklikt worden. 
+Werk samen in dit spel om de virussen te stoppen. Maar wie doet het beter? 
 
 
 ## Clone project
